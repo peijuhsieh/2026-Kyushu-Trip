@@ -31,12 +31,10 @@
 
     <!-- ==================== 分頁 1：每日行程 ==================== -->
     <main id="section-itinerary" class="content-section p-5 space-y-6 block">
-        
         <!-- Day 1 -->
         <div>
             <h2 class="text-xl font-bold mb-3 flex items-center"><span class="w-2 h-6 bg-blue-800 rounded-full mr-2"></span>Day 1 · 11/23 (一) 柳川水鄉</h2>
             <div class="ios-card relative">
-                <!-- 100% 不破圖的極簡漸層標頭 -->
                 <div class="w-full h-24 bg-gradient-to-r from-blue-100 to-cyan-50 flex items-center justify-center text-4xl">🛶</div>
                 <div class="p-5">
                     <p class="text-sm font-bold text-slate-400 mb-1">11:00 熊本機場接機出發</p>
@@ -169,13 +167,95 @@
         </div>
     </main>
 
-    <!-- ==================== 分頁 3：備案神店 (等待總指揮匯入) ==================== -->
+    <!-- ==================== 分頁 3：備案神店 ==================== -->
     <main id="section-backups" class="content-section p-5 space-y-6 hidden">
-        <h2 class="text-2xl font-black mb-4 text-slate-800">備案神店清單</h2>
-        <div class="ios-card p-8 text-center bg-slate-50 border-2 border-dashed border-slate-300">
-            <i class="fa-solid fa-tower-broadcast text-4xl text-slate-300 mb-3"></i>
-            <h3 class="font-bold text-slate-600 mb-2">等待總指揮匯入資料</h3>
-            <p class="text-sm text-slate-400">請將我們之前整理的「備案餐廳與飲食」清單貼給系統總管，我將立刻為您排版解鎖此區塊！</p>
+        <h2 class="text-2xl font-black mb-4 text-slate-800">戰略備案神店</h2>
+        
+        <!-- 第一戰區：海鮮 -->
+        <div class="ios-card p-5 border-l-8 border-rose-600">
+            <h3 class="text-lg font-black mb-3 text-rose-700">🦀 第一戰區：頂級海鮮</h3>
+            <ul class="space-y-4">
+                <li class="border-b border-slate-100 pb-3">
+                    <div class="font-bold text-slate-800 text-base">【福岡】蟹嗣（かに嗣）</div>
+                    <div class="text-xs text-slate-500 mb-2">終極活蟹聖殿，全包廂。📍 西中洲3-1 デルタウエスト 1F-B</div>
+                    <div class="bg-rose-50 text-rose-700 text-xs px-2 py-1 rounded inline-block font-bold">⚠️ 戰略：預約下達「拒吃魚子醬」指令</div>
+                </li>
+                <li class="border-b border-slate-100 pb-3">
+                    <div class="font-bold text-slate-800 text-base">【福岡】河太郎 中洲本店</div>
+                    <div class="text-xs text-slate-500 mb-2">無煙神店，超大活烏賊水池。</div>
+                    <div class="bg-orange-50 text-orange-700 text-xs px-2 py-1 rounded inline-block font-bold">⚠️ 戰略：只單點活烏賊與飲料，吃完俐落撤退</div>
+                </li>
+                <li class="border-b border-slate-100 pb-3">
+                    <div class="font-bold text-slate-800 text-base">【福岡】博多 蟹福</div>
+                    <div class="text-xs text-slate-500">螃蟹火鍋與全熟軟嫩蟹肉，無煙包廂。</div>
+                </li>
+                <li>
+                    <div class="font-bold text-slate-800 text-base">【福岡】西中洲 割烹 しらに田</div>
+                    <div class="text-xs text-slate-500">榮獲米其林星級的高級料亭，可預約掛牌活松葉蟹。</div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 第二戰區：孝親無煙 -->
+        <div class="ios-card p-5 border-l-8 border-emerald-500">
+            <h3 class="text-lg font-black mb-1 text-emerald-700">🌟 第二戰區：孝親無煙正餐</h3>
+            <div class="text-xs text-slate-400 mb-3 font-bold">舒適、尊榮、長輩滿分 (100% 全熟)</div>
+            <div class="grid grid-cols-2 gap-2 text-sm text-slate-700">
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">山莊無量塔</span><br><span class="text-[11px] text-slate-500">100% 全熟頂級懷石</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">高千穗和牛</span><br><span class="text-[11px] text-slate-500">專人桌邊煎製全熟</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">柳川鰻魚飯</span><br><span class="text-[11px] text-slate-500">百年傳統軟嫩熱食</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">勝烈亭 新市街</span><br><span class="text-[11px] text-slate-500">九州最強全席禁菸</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">TORi馬Ko</span><br><span class="text-[11px] text-slate-500">禁菸包廂天草地雞</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">博多水炊き橙</span><br><span class="text-[11px] text-slate-500">米其林推薦禁菸鍋</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">博多華味鳥</span><br><span class="text-[11px] text-slate-500">桌邊服務地雞水瀧鍋</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">壽喜燒hohoho</span><br><span class="text-[11px] text-slate-500">無煙高質感和牛</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">地鶏とりあん</span><br><span class="text-[11px] text-slate-500">師傅炭烤全熟上桌</span>
+                </div>
+                <div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100">
+                    <span class="font-bold">海木 / 三日月屋</span><br><span class="text-[11px] text-slate-500">高雅點心與可頌</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 第三戰區：總指揮深夜秘境 -->
+        <div class="ios-card p-5 border-l-8 border-purple-600 bg-slate-50">
+            <h3 class="text-lg font-black mb-2 text-purple-800">🌙 第三戰區：深夜專屬秘境</h3>
+            <div class="bg-purple-100 text-purple-800 text-[11px] px-2 py-1 rounded-md inline-block font-bold mb-3 shadow-sm">⚠️ 長輩絕對迴避：可吸菸 / 擁擠吧台</div>
+            <ul class="space-y-3 text-sm text-slate-700">
+                <li class="flex items-start">
+                    <i class="fa-solid fa-beer-mug-empty text-purple-500 mt-1 mr-2"></i>
+                    <div><span class="font-bold">三光橋與雷橋系列</span><br><span class="text-xs text-slate-500">殻の三光橋、爐端雷橋、肉之雷橋等 (皆全店可吸菸/空間小)</span></div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-fish text-purple-500 mt-1 mr-2"></i>
+                    <div><span class="font-bold">北海ひがし</span><br><span class="text-xs text-slate-500">北海道空運海鮮 (全店可吸菸/需脫鞋)</span></div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-fire-burner text-purple-500 mt-1 mr-2"></i>
+                    <div><span class="font-bold">天麩羅処ひらお</span><br><span class="text-xs text-slate-500">超人氣天婦羅 (排隊大魔王/翻桌快壓力大)</span></div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-bowl-food text-purple-500 mt-1 mr-2"></i>
+                    <div><span class="font-bold">熊本各式深夜拉麵與居酒屋</span><br><span class="text-xs text-slate-500">ひょご鳥、鶫、Musashiza、黑亭/桂花拉麵</span></div>
+                </li>
+            </ul>
         </div>
     </main>
 
@@ -206,7 +286,7 @@
         </div>
     </main>
 
-    <!-- 底部導覽列 (四大天王升級版) -->
+    <!-- 底部導覽列 -->
     <nav class="fixed bottom-0 w-full bg-white/95 backdrop-blur-md border-t border-slate-200 pb-8 pt-3 px-2 flex justify-between z-50">
         <button onclick="switchTab('itinerary', this)" class="nav-btn nav-active flex flex-col items-center w-1/4 text-[11px]">
             <i class="fa-solid fa-map-location-dot text-xl mb-1"></i>行程
@@ -224,7 +304,6 @@
 
     <!-- 核心邏輯 -->
     <script>
-        // 1. 分頁切換
         function switchTab(tabId, btnElement) {
             document.querySelectorAll('.content-section').forEach(el => el.classList.add('hidden'));
             document.querySelectorAll('.nav-btn').forEach(el => {
@@ -236,7 +315,6 @@
             btnElement.classList.add('nav-active');
         }
 
-        // 2. 智慧倒數
         function updateCountdown() {
             const startDate = new Date('2026-11-23T00:00:00').getTime();
             const endDate = new Date('2026-11-28T23:59:59').getTime();
@@ -258,7 +336,6 @@
         }
         updateCountdown();
 
-        // 3. 記帳引擎 (包含刪除功能)
         let totalJpy = 0;
 
         function updateTotals() {
@@ -267,7 +344,6 @@
             
             const list = document.getElementById('expense-list');
             const emptyState = document.getElementById('empty-state');
-            // 如果清單中只有空狀態那個 li，就顯示它
             if (list.children.length <= 1) {
                 emptyState.style.display = 'block';
             }
@@ -291,7 +367,6 @@
             const li = document.createElement('li');
             li.className = 'flex justify-between items-center py-3';
             
-            // 寫入包含刪除垃圾桶按鈕的 HTML
             li.innerHTML = `
                 <div class="flex-1 font-bold text-slate-700">${name}</div>
                 <div class="text-rose-600 font-bold mr-4">¥ ${price.toLocaleString()}</div>
@@ -308,13 +383,9 @@
             priceInput.value = '';
         }
 
-        // 動態刪除邏輯
         function deleteExpense(btnElement, price) {
-            // 扣除總額
             totalJpy -= price;
-            // 移除該筆 HTML 元素
             btnElement.closest('li').remove();
-            // 重新更新數字與畫面狀態
             updateTotals();
         }
     </script>
